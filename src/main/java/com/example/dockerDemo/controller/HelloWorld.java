@@ -8,6 +8,5 @@ public class HelloWorld {
     @GetMapping("/welcome")
     public String printHelloWorld(){
         return  "Hello World";
-
     }
 }
